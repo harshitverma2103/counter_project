@@ -16,7 +16,7 @@ let [counter , setCounter] = useState(0);
   const removeValue = () => {
     setCounter(counter - 1)
     if(counter < 1 ) {
-      alert('Oops! no you can not value count less than 0')
+      alert('Oops! no you can not remove value less than 0')
       setCounter(counter  = 0)
     }
   }
